@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #030303;
+}
+
+/* Contenedor general */
+.contenedor {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(77, 67, 95, 0.1);
+}
+
+/* Header */
+.header {
+  background: #eca9a9;
+  color: rgb(24, 9, 9);
+  text-align: center;
+  padding: 30px 0s;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Menú */
+.menu {
+  background: #5757576b;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  flex: 1;
+}
+
+.menu a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  color: rgb(27, 24, 24);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #575757;
+}
+
+/* Sección principal */
+.principal {
+  display: flex;
+}
+
+/* Contenido principal */
+.contenido {
+  width: 70%;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+}
+
+.caja {
+  background: #d3d3d3;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Barra lateral */
+.sidebar {
+  width: 30%;
+  background: #f1f1f1;
+  padding: 20px;
+  border-left: 2px solid #afadad;
+}
+
+/* Footer */
+.footer {
+  background: #f5e0e0;
+  color: rgb(122, 5, 5);
+  text-align: center;
+  padding: 15px;
+}
